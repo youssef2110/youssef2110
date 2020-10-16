@@ -20,3 +20,9 @@
 - Java
 - Angular8
 
+export const MATRICULE_REGEX = /^[a-z][0-9]{4}$|[0-9]{5}/i;
+export const PASSWORD_REGEX = /^(?=.*[0-9])(?=.*[a-zA-Z])([a-zA-Z0-9]+)$/;
+export const PHONE_REGEX = /^0[6,7][0-9]{8}$/i;
+export const FIXE_REGEX = /^0[5][0-9]{8}$/i;
+export const EMAIL_REGEX = /^$|^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
+export const FULL_NAME_REGEX = /^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$/i;
